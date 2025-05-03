@@ -1,9 +1,3 @@
-
----
-
-### `README.md`
-
-```markdown
 # ⚡ GPU Recommender App (SD-019)
 
 A full-stack frontend React application that fetches **real-time GPU pricing and specs** from [AceCloud Hosting](https://customer.acecloudhosting.com) and recommends GPUs based on your **workload type**, **model size**, **dataset size**, **budget**, and **region**.
@@ -14,9 +8,7 @@ A full-stack frontend React application that fetches **real-time GPU pricing and
 
 The app uses this real-time API:
 ```
-
-[https://customer.acecloudhosting.com/api/v1/pricing?is\_gpu=true\&resource=instances](https://customer.acecloudhosting.com/api/v1/pricing?is_gpu=true&resource=instances)
-
+https://customer.acecloudhosting.com/api/v1/pricing?is_gpu=true&resource=instances
 ```
 
 ---
@@ -34,7 +26,6 @@ The app uses this real-time API:
 ## 📁 Folder Structure
 
 ```
-
 frontend/
 ├── public/
 ├── src/
@@ -61,8 +52,7 @@ frontend/
 ├── package.json
 ├── vite.config.js
 └── README.md
-
-````
+```
 
 ---
 
@@ -73,7 +63,7 @@ frontend/
 ```bash
 git clone https://github.com/aryajhawar11/GPURecommenderSD-019.git
 cd GPURecommenderSD-019/frontend
-````
+```
 
 ### 2. Install Dependencies
 
@@ -109,40 +99,38 @@ These will auto-install after `npm install`:
 
 ## 🧠 Features
 
-* 🔍 **Real-time GPU Search** based on multiple criteria
-* 🧠 **AI-based Recommendations** with explanations
-* 🌓 **Dark/Light Mode Toggle**
-* 🔔 **Toast Notifications** for Spot Request
-* 🧾 Filter by Spot or On-Demand pricing
-* ✅ Explanation and requirements for each recommendation
+- 🔍 **Real-time GPU Search** based on multiple criteria
+- 🧠 **AI-based Recommendations** with explanations
+- 🌓 **Dark/Light Mode Toggle**
+- 🔔 **Toast Notifications** for Spot Request
+- 🧾 Filter by Spot or On-Demand pricing
+- ✅ Explanation and requirements for each recommendation
 
 ---
 
 ## 💡 How to Use
 
 1. Navigate to the homepage and fill in your:
-
-   * **Workload Type**
-   * **Model Size**
-   * **Dataset Size**
-   * **Budget** and **Budget Type**
-   * **Region**
-   * **Spot Instance Preference**
+   - **Workload Type**
+   - **Model Size**
+   - **Dataset Size**
+   - **Budget** and **Budget Type**
+   - **Region**
+   - **Spot Instance Preference**
 
 2. Click **“Generate Recommendations”**.
 
 3. You'll get a list of matching GPU instances ranked with:
-
-   * 💵 Hourly/Monthly/Yearly pricing
-   * 📌 Region, OS, and Specs
-   * ✅ Detailed **explanation** of why the GPU is recommended
-   * 📩 Spot request with toast confirmation
+   - 💵 Hourly/Monthly/Yearly pricing
+   - 📌 Region, OS, and Specs
+   - ✅ Detailed **explanation** of why the GPU is recommended
+   - 📩 Spot request with toast confirmation
 
 ---
 
 ## 🧑‍💻 Author
 
-Made with 💻 by **Arya Jhawar**
+Made with 💻 by **Arya Jhawar**  
 🔗 GitHub: [@aryajhawar11](https://github.com/aryajhawar11)
 
 ---
@@ -150,8 +138,3 @@ Made with 💻 by **Arya Jhawar**
 ## 📄 License
 
 This project is licensed under the **MIT License**.
-
-```
-
-Would you like me to save this `README.md` directly into your project or push it to your GitHub repo via CLI instructions?
-```
