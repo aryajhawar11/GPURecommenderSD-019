@@ -1,5 +1,6 @@
 # ⚡ GPU Recommender App (SD-019)
 
+### Demo video -  https://drive.google.com/file/d/1FXZgy8qfNELBu4IeKlt5rVPmw9t7YBPK/view?usp=sharing
 A full-stack frontend React application that fetches **real-time GPU pricing and specs** from [AceCloud Hosting](https://customer.acecloudhosting.com) and recommends GPUs based on your **workload type**, **model size**, **dataset size**, **budget**, and **region**.
 
 ---
